@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.update.UpdateFragment">
+
+    <EditText
+        android:id="@+id/updatefirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/first_name_ET"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints="Enter First Name" />
+
+    <EditText
+        android:id="@+id/updatSecondName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/last_name_ET"
+        android:layout_below="@+id/updatefirstName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints="Enter Second Name" />
+
+    <EditText
+        android:id="@+id/updateAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/age_ET"
+        android:layout_below="@+id/updatSecondName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints="Enter Age" />
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_btn"
+        android:textSize="16sp"
+        android:layout_below="@+id/updateAge"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+
+</RelativeLayout>

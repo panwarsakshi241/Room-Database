@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Room Database</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_name_textView">sakshi</string>
+    <string name="last_name_textView">Panwar</string>
+    <string name="age_textView">20</string>
+    <string name="Id_textView">1</string>
+    <string name="update_btn">Update</string>
+    <string name="first_name_ET">first Name</string>
+    <string name="last_name_ET">last Name</string>
+    <string name="age_ET">Age</string>
+    <string name="delete_item">Delete</string>
+</resources>
